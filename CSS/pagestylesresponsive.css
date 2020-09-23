@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px){
+
+  /* about */
+
+    #about-resp{
+      flex-direction: column-reverse;
+    }
+
+    #about .about-image img{
+      display: block;
+      margin: auto;
+      width: 50%;
+      border-radius: 50%;       
+    }
+
+    #about .about-text{
+      text-align: justify;
+      margin-top: 60px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+  /* about */
+
+
+
+
+
+  /* languages */
+
+    #languages .languages-image img{
+      width: 60px;
+      height: 60px;  
+    }
+
+    #languages .portion{
+      padding-bottom: 12px;
+      padding-top: 11px;
+    }
+
+    #languages .portion h1{
+      font-size: 1.2rem;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    #languages .languages-content{    
+      margin-top: 40px;      
+    }
+
+    #languages .languages-image .tooltiptext{    
+      font-size: 12px;    
+  }
+
+  /* languages */  
+
+
+
+
+  /* projects */
+
+    #project-resp{
+      flex-direction: column;
+    }
+
+    #projects .project-text{
+      text-align: justify;
+      margin-top: 10px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    #projects .project-image{
+      margin-top: 20px;
+    }
+    
+    #projects .portion li{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 17px;
+    }
+
+    #projects .portion{      
+      padding-bottom: 15%;
+    }
+
+  /* projects */
+
+
+}    
